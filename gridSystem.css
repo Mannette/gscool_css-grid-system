@@ -1,8 +1,28 @@
-.border {
+.first-row {
+  float: left;
   border: 1px solid #BFBFBF;
   border-width: 2px;
   height: 15px;
   margin-top: 2%;
+  display: inline-block;
+}
+
+.second-row {
+  float: left;
+  border: 1px solid #bfbfbf;
+  border-width: 2px;
+  height: 15px;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+.third-row {
+  float: left;
+  border: 1px solid #bfbfbf;
+  border-width: 2px;
+  height: 15px;
+  margin-top: 2%;
+  display: inline-block;
 }
 
 .left {
