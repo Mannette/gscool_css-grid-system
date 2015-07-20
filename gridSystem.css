@@ -1,0 +1,28 @@
+.border {
+  border: 1px solid #BFBFBF;
+  border-width: 2px;
+  height: 15px;
+  margin-top: 2%;
+}
+
+.left {
+  border: 1px solid black;
+  float: left;
+}
+
+.right {
+  border: 1px solid blue;
+  float: right;
+}
+
+.middle-left {
+  float: left;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.middle-right {
+  float: right;
+  border: 1px solid black;
+}

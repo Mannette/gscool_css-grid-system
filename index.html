@@ -6,33 +6,40 @@
   <title>css-grid-system</title>
 </head>
 <body>
-  <table>
-    <tr class="first">
-    </tr>
-    <tr class="second">
-      <td>
-      </td>
-      <td>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </td>
-    </tr>
-    <tr class="third">
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
+
+    <div class="border">
+      row 1
+    </div>
+    <div class="border">
+      <div>
+        row 2
+        <div class="middle-left">col 2</div>
+        <div class="middle-right">col 3
+          <tr>row 3
+            <div>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+              <td>col 1</td>
+            </div>
+          </tr>
+        </div>
+      </div>
+    </div>
+    <div class="border">
+      <tr class="third">row 4
+        <td class="left">col 4</td>
+        <td class="right">col 5</td>
+      </tr>
+    </div>
+
 </body>
 </html>
